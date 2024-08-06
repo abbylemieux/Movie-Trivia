@@ -1,5 +1,8 @@
 # Movie Trivia
 
+![Can You Get All 10 Questions Correct](https://github.com/user-attachments/assets/d5bf8819-16d3-4646-8980-cfcc82b79942)
+
+
 ##Interactive
 
 Create a start-up page with a start quiz button (add a picture and a title of the quiz)
