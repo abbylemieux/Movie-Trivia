@@ -1,5 +1,7 @@
 /* Basic styling for the page */
 body {
+    
+    
     font-family: sans-serif;
 }
 
@@ -10,7 +12,14 @@ body {
 .image {
     width: 500px;
     height: 300px;
-    margin-top: 30px;
+    margin: 30px auto;
+    display: block;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
 }
 
 /* Style the buttons */
@@ -22,4 +31,6 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
