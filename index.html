@@ -4,25 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=3.0">
     <title>Movie Trivia</title>
-    
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <div style="background-color: #1EA896; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 30vh;">
-        <h1 w-tid="7" style="margin: 0; font-family: Shrikhand, sans-serif;">Movie Trivia</h1>
-        <h2 w-tid="7" style="margin: 0; font-family: Shrikhand, sans-serif;">Can You Get All 10 Questions Correct?</h2>
+    <div class="container">
+        <div class="hero is-medium is-primary">
+            <div class="hero-body has-text-centered">
+                <h1 class="title">Movie Trivia</h1>
+                <h2 class="subtitle">Can You Get All 10 Questions Correct?</h2>
+            </div>
+            </div>
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-half">
+                <img src="https://pyxis.nymag.com/v1/imgs/4db/9a9/78f0f50285dd11bef4946bc47283e49281-pills-lede.rhorizontal.w700.jpg" alt="Matrix Image" class="image">
+            </div>
+        </div>
+        <div class="content">
+            <h2 class="title is-4">Question 1:</h2>
+            <h2 class="subtitle">In The Matrix, what color pill does Neo take to learn the truth about the Matrix?</h2>
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-one-third">
+            <button class="button is-primary is-rounded" style="background-color: #734b5e;">A) Red</button>
+            </div>
+            <div class="column is-one-third">
+            <button class="button is-primary is-rounded" style="background-color: #734b5e;">B) Blue</button>
+            </div>
+            <div class="column is-one-third">
+            <button class="button is-primary is-rounded" style="background-color: #734b5e;">C) Green</button>
+            </div>
+        </div>
+            </div>
+        </div>
+        </div>
     </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <img src="https://pyxis.nymag.com/v1/imgs/4db/9a9/78f0f50285dd11bef4946bc47283e49281-pills-lede.rhorizontal.w700.jpg" alt="Matrix Image" style="width: 500px; height: 300px; margin-top: 30px;">
-    </div>
-    <div style="text-align: center;">
-        <h2 style="font-family: Glacial Indifference;">Question 1:</h2>
-        <h2 style="font-family: Glacial Indifference;">In The Matrix, what color pill does Neo take to learn the truth about the Matrix?</h2>
-    </div>
-    <div style="display: flex; justify-content: flex-start; margin-top: 50px;">
-        <button w-tid="start-btn" style="padding: 10px 30px; font-size: 20px; background-color: #734b5e; color: white; border: none; border-radius: 10px; cursor: pointer;">A)Red</button>
-    </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
