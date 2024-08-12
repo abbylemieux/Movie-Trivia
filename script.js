@@ -38,7 +38,7 @@ document.body.appendChild(wakBut);
 
 const elbBut    = document.createElement("button");
 elbBut .innerHTML = "Elbonia";
-document.body.appendChild(elbButBut);
+document.body.appendChild(elbBut);
 
 wakBut.addEventListener("click", function() {
     score++;
@@ -210,6 +210,12 @@ console.log("Question 10 In Disney’s The Lion King, what is the name of Simba'
 const submitBut = document.createElement("button");
 submitBut.innerHTML = "Submit";
 document.body.appendChild(submitBut);
+
+//show score alert  
+submitBut.addEventListener("click", function() {
+    alert("You got " + score + " out of 10 correct!");
+});
+
 
 
 
