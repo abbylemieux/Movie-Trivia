@@ -137,7 +137,7 @@ richBut.innerHTML = "Dr. Richard Gray";
 document.body.appendChild(richBut);
 
 const howBut = document.createElement("button");
-howButBut.innerHTML = "Dr. Howard Stark";
+howBut.innerHTML = "Dr. Howard Stark";
 document.body.appendChild(howBut);
 
 
