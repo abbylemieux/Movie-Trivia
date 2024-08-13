@@ -1,2 +1,36 @@
-html
-h1 {}
+/* Basic styling for the page */
+body {
+    
+    
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    display: block;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+
+/* Style the buttons */
+.button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #734b5e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
