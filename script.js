@@ -63,6 +63,7 @@ const answers = {
      question9: "Rocket",
      question10: "Mufasa"
  };
+ 
  let score = 0;
  const questionCount = 10;
  let buttonParents = document.querySelectorAll('.buttonParent');
@@ -70,8 +71,11 @@ const answers = {
  let buttons = [];
  buttonParents.forEach((parent)=>{
      buttons.push(parent.querySelector('button'));
+    
  })
+ 
  for (let i = 0; i < questionCount-1; i++) {
+ 
      let questionKey = `question${(i + 1)}`;
      console.log(answers[questionKey]);
      answers[questionKey].forEach((answer) => {
@@ -80,6 +84,8 @@ const answers = {
        console.log('button', buttons[buttonsAdded]);
        buttons[buttonsAdded].addEventListener('click', () => {
          console.log('clicked', answer);
+         //turn button blue when clicked
+         
          if (answer === correctAnswers[questionKey]) {
              score++;
          }
@@ -87,6 +93,7 @@ const answers = {
          buttonsAdded++;
      })
      };
+ 
  // buttonParents.forEach((parent,i)=>{
  //     console.log("loop");
  //     let questionKey = `question${i}`;
@@ -100,7 +107,7 @@ const answers = {
  //       });
  //       buttonParents[i - 1].appendChild(button);
  //     })
- // });
+ // }); 
  // if (answers === correctAnswers[questionKey]) {
  //     score++;
  // }
