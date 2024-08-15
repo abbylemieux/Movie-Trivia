@@ -85,8 +85,6 @@ for (let i = 0; i < questionCount-1; i++) {
       console.log('button', buttons[buttonsAdded]);
       buttons[buttonsAdded].addEventListener('click', () => {
         console.log('clicked', answer);
-        //turn button blue when clicked
-        
         if (answer === correctAnswers[questionKey]) {
             score++;
         }
@@ -112,4 +110,3 @@ for (let i = 0; i < questionCount-1; i++) {
 // if (answers === correctAnswers[questionKey]) {
 //     score++;
 // }
-

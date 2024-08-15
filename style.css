@@ -34,17 +34,24 @@ margin: 0;
     flex-direction: column;
   }
   
-  /*.main-header {
-    display: flex;
-    padding: 50px;
-    background: #13293d;
-    color: #fff;
-  }*/
+  .container {
+    min-width: 1280px;
+    position: relative;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+  }
 
   img {
-    float: left;
-    left: 20px;
- }
- r1 {
-    float:  left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+    float: right;
+    right: 50px;
  }
