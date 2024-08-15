@@ -70,10 +70,14 @@ const questionCount = 10;
 let buttonParents = document.querySelectorAll('.buttonParent');
 let buttonsAdded = 0;
 let buttons = [];
+
+
 buttonParents.forEach((parent)=>{
     buttons.push(parent.querySelector('button'));
    
 })
+
+
 
 for (let i = 0; i < questionCount-1; i++) {
 
