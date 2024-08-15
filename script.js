@@ -93,6 +93,16 @@ for (let i = 0; i < questionCount-1; i++) {
     })
     };
 
+    console.log('score', score);
+
+    //submit button when clicked alerts score
+
+    submit.addEventListener('click', () => {
+        alert('Your score is ' + score + ' out of 10');
+    });
+
+
+
 // buttonParents.forEach((parent,i)=>{
 //     console.log("loop");
 //     let questionKey = `question${i}`;
