@@ -3,18 +3,10 @@
     box-sizing: border-box;
   }
   
-  header {
-    background-color: #BFD7B5;
-    color: #060000;
-    padding: 10px 0;
-    text-align: center;
-  }
-
   body {
     font-family: Glacial Indifference;
     margin: 0;
     text-align: center;
-    background-color: #E7EFC5;
   }
 
  main {
@@ -34,7 +26,6 @@ margin: 0;
   .qAndA {
     display: flex;
     flex-direction: column;
-    color: black;
 
   }
 
@@ -57,13 +48,3 @@ margin: 0;
  r1 {
     float:  left;
  }
-
- .h1
-  {
-    font-size: 30px;
-    font-weight: bold;
-    color: #060000;
-  }
-
- /* set the background color of the body */
-
